@@ -2,19 +2,19 @@
   "name": "mesto",
   "description": "My project in RTU MIREA.",
   "version": "1.0.0",
-  "author": " <nikitafon2005@gmail.com>",
+  "author": " <mishanykarl>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Relax1205/Sixth_project.Server.git"
+    "url": "git+https://github.com/Mishanykarl/MireaFrontend_Sixth_pr-.git"
   },
-  "homepage": "https://github.com/AstreyaJulia/mesto#readme",
+  "homepage": "https://github.com/Mishanykarl/MireaFrontend_Sixth_pr-",
   "scripts": {
     "build": "rimraf dist && webpack --mode production",
     "dev": "webpack serve",
     "clean": "rimraf dist",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -f"
   },
   "dependencies": {
     "core-js": "^3.21.1"
